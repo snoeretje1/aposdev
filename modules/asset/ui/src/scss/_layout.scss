@@ -19,15 +19,21 @@ body {
 }
 
 .banner{
-  max-height: 500px;
-  flex: 100%;
+  display: inline-block;
+  position: relative;
+  width: 100%;
 }
+.banner img {
+  height: 500px;
+  width: 100%;
+}
+
 
 .bp-header,
 main,
 .bp-footer {
   width: 100%;
-  max-width: 800px;
+  // max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -58,17 +64,21 @@ main,
 }
 
 .bp-header__logo {
-  display: block;
+  display: flex;
   width: 190px;
   max-width: 100%;
   object-fit: contain;
+  margin-left: 5%;
 }
 
-.bp-header__login {
 
+.bp-header__login {
   &:visited {
     color: white;
   }
+}
+.bp-wrapper nav{
+  margin-right: 5%;
 }
 
 .bp-content {
