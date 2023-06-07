@@ -28,7 +28,8 @@ module.exports = {
         type: 'area',
         options: {
           widgets: {
-            'twocolumn': {}
+            'twocolumn': {},
+            'enkelekolom':{}
            
           }
         }

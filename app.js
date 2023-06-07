@@ -34,7 +34,8 @@ require('apostrophe')({
     'default-page': {},
     'product':{},
     'Webpagina':{},
-    'twocolumn-widget':{}
+    'twocolumn-widget':{},
+    'enkelekolom-widget':{}
     }
   }
 );
