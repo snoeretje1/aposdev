@@ -5,3 +5,16 @@
 .bp-image-widget {
   max-width: 100%;
 }
+
+.two_col {
+  display: flex;
+  flex: 1;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.two_col__column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

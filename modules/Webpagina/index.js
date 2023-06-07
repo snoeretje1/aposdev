@@ -28,9 +28,8 @@ module.exports = {
         type: 'area',
         options: {
           widgets: {
-            '@apostrophecms/rich-text': {},
-            '@apostrophecms/image':{},
-            '@apostrophecms/video': {}
+            'twocolumn': {}
+           
           }
         }
       }

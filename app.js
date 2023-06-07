@@ -1,3 +1,5 @@
+const twoColumnWidget = require('./modules/twocolumn-widget');
+
 require('apostrophe')({
   shortName: 'aposdev',
   modules: {
@@ -31,6 +33,8 @@ require('apostrophe')({
     // The project's first custom page type.
     'default-page': {},
     'product':{},
-    'Webpagina':{}
+    'Webpagina':{},
+    'twocolumn-widget':{}
+    }
   }
-});
+);
