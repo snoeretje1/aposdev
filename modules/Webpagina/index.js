@@ -17,7 +17,9 @@ module.exports = {
             type:'area',
             options:{
         widgets:{
-            '@apostrophecms/image':{}
+            '@apostrophecms/image':{
+              className:'header'
+            }
         }
         }
     },
