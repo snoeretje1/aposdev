@@ -20,17 +20,17 @@
     <nav>
       <ul>
         {# 👇 Referencing `data.home._children` and looping over them. #}
-        {% for page in data.home._children %}
+        <!-- {% for page in data.home._children %} -->
           <li>
             <a href="{{ page._url }}">{{ page.title }}</a>
           </li>
-        {% endfor %}
+        <!-- {% endfor %} -->
       </ul>
     </nav>
   </header>
   <main class="bp-main">
 {% endblock %}
-
+<!-- 
 {% block main %}
   {#
     Usually, your page templates in the @apostrophecms/pages module will override
@@ -39,7 +39,7 @@
   #}
 {% endblock %}
 
-{% block afterMain %}
+{% block afterMain %} -->
   </main>
   <footer class="bp-footer">
 
