@@ -50,7 +50,7 @@ require('apostrophe')({
     'Webpagina':{},
     'twocolumn-widget':{},
     'enkelekolom-widget':{},
-    'enkelekolomfull-widget':{}
-    }
+    'enkelekolomfull-widget':{},
+   ' postcss':{}}
   }
 );
