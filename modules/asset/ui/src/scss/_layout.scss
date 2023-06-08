@@ -101,3 +101,13 @@ main,
   padding-top: 30px;
 }
 
+.contactformulier{
+   margin-left: 12%;
+display: flex;
+width: 500px;
+flex-direction: column;
+text-align: center;
+}
+.contactformulier h2{
+  flex: 1;
+}

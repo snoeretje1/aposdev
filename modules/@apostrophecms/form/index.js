@@ -1,5 +1,6 @@
 module.exports={
     options: {
-        emailSubmissions: false
+        emailSubmissions: false,
+        classPrefix:'formulier'
     }
   };

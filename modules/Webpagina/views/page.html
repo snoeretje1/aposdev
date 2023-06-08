@@ -8,13 +8,13 @@
 
 </section>
 
-{% area data.page, 'main' %}
 
 <main>
-
+    {% area data.page, 'main' %}
 
 </main>
-
-
-
+<section class="contactformulier">
+<h2>{{data.page.titel_formulier}}</h2>
+{%area data.page, 'formulier'%}
+</section>
 {% endblock %}

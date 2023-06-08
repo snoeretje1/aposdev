@@ -34,6 +34,19 @@ module.exports = {
            
           }
         }
+      },
+      titel_formulier:{
+        label:'Titel Formulier',
+        type:'string'
+      },
+      formulier:{
+        type:'area',
+        options:{
+          max:1,
+          widgets:{
+            '@apostrophecms/form': {}
+          }
+        }
       }
     },
     group: {
@@ -46,6 +59,10 @@ module.exports = {
         fields:['banner']
 
       },
+      formulier:{
+        label:'Formulier',
+        fields:['titel_formulier','formulier']
+      }
     }
   
 }
