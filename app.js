@@ -4,6 +4,19 @@ const twoColumnWidget = require('./modules/twocolumn-widget');
 require('apostrophe')({
   shortName: 'aposdev',
   modules: {
+    '@apostrophecms/form': {},
+    // The form widget module, allowing editors to add forms to content areas
+    '@apostrophecms/form-widget': {},
+    // Form field widgets, used by the main form module to build forms.
+    '@apostrophecms/form-text-field-widget': {},
+    '@apostrophecms/form-textarea-field-widget': {},
+    '@apostrophecms/form-select-field-widget': {},
+    '@apostrophecms/form-radio-field-widget': {},
+    '@apostrophecms/form-file-field-widget': {},
+    '@apostrophecms/form-checkboxes-field-widget': {},
+    '@apostrophecms/form-boolean-field-widget': {},
+    '@apostrophecms/form-conditional-widget': {},
+    '@apostrophecms/email':{},
     // Apostrophe module configuration
     // *******************************
     //
