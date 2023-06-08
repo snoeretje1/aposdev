@@ -101,13 +101,16 @@ main,
   padding-top: 30px;
 }
 
-.contactformulier{
-   margin-left: 12%;
-display: flex;
-width: 500px;
-flex-direction: column;
+.contact{
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: auto;
 text-align: center;
 }
-.contactformulier h2{
-  flex: 1;
+.contactformulier {
+  margin-left: 15%;
+}
+
+.contactgegevens p{
+  text-align: center;
 }

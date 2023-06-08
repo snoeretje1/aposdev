@@ -13,8 +13,18 @@
     {% area data.page, 'main' %}
 
 </main>
-<section class="contactformulier">
+<section class="contact">
+    <div class="contactformulier">
 <h2>{{data.page.titel_formulier}}</h2>
 {%area data.page, 'formulier'%}
+</div>
+<div class="contactgegevens">
+    <h2>contactgegevens</h2>
+    RS2E
+    <p>
+    Telefoon:<a href="tel:+31657604545">+31657604545</a><br>
+    Email:<a href="mailto:remcosnoeren@rs2e.nl">remcosnoeren@rs2e.nl </a> <br>
+</p>
+</div>
 </section>
 {% endblock %}
