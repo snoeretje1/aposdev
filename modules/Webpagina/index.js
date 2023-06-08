@@ -29,7 +29,8 @@ module.exports = {
         options: {
           widgets: {
             'twocolumn': {},
-            'enkelekolom':{}
+            'enkelekolom':{},
+            'enkelekolomfull':{}
            
           }
         }

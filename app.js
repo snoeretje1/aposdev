@@ -1,3 +1,4 @@
+const enkelekolomfullWidget = require('./modules/enkelekolomfull-widget');
 const twoColumnWidget = require('./modules/twocolumn-widget');
 
 require('apostrophe')({
@@ -35,7 +36,8 @@ require('apostrophe')({
     'product':{},
     'Webpagina':{},
     'twocolumn-widget':{},
-    'enkelekolom-widget':{}
+    'enkelekolom-widget':{},
+    'enkelekolomfull-widget':{}
     }
   }
 );

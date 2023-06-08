@@ -4,6 +4,7 @@ body,
 .bp-wrapper {
   display: flex;
   flex-direction: column;
+  background-color: #e8e7e0;
 }
 
 [data-apos-refreshable],
@@ -26,6 +27,8 @@ body {
   width: 100%;
   margin-bottom: 0px;
   padding-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 .banner img {
   height: 500px;
