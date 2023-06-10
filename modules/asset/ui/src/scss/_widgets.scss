@@ -11,10 +11,10 @@
   align-items: center;
   text-align: center;
   column-gap: 80px ;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
  
 
   //flex: 1;
@@ -30,10 +30,12 @@
  // flex:auto;
 }
 .enkele-kolom{
-  margin-left: 14%;
+  margin-bottom: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  // justify-content: space-around;
 }
 .enkele-kolom100{
   width:100%;
