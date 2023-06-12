@@ -5,6 +5,7 @@ module.exports = {
           type: 'url',
           label: 'Github organization url'
         }
+        
       },
       group: {
         basics: {

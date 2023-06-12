@@ -17,6 +17,14 @@ require('apostrophe')({
     '@apostrophecms/form-boolean-field-widget': {},
     '@apostrophecms/form-conditional-widget': {},
     '@apostrophecms/email':{},
+    '@apostrophecms/seo': {},
+    '@apostrophecms/global': {
+      options: {
+        seoGoogleAnalytics: true,
+        seoGoogleTagManager: true,
+        seoGoogleVerification: true
+      }
+    },
     // Apostrophe module configuration
     // *******************************
     //
