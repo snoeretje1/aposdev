@@ -18,7 +18,7 @@
  
 
   //flex: 1;
-  //flex-flow: row wrap;
+  flex-flow: row wrap;
 // width: 100%;
   justify-content: space-between;
 }
@@ -28,6 +28,7 @@
   //display: flex;
   //flex-direction: column;
  // flex:auto;
+ min-width: 420px ;
 }
 .enkele-kolom{
   margin-bottom: 10%;
