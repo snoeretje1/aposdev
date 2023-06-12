@@ -18,10 +18,10 @@
       <!-- <a class="bp-button bp-header__login" href="/login">Login</a> -->
     {% endif %}
     <nav>
-      <ul>
+      <ul class="menu1">
         {# 👇 Referencing `data.home._children` and looping over them. #}
         <!-- {% for page in data.home._children %} -->
-          <li>
+          <li class="menuitems">
             <a href="{{ page._url }}">{{ page.title }}</a>
           </li>
         <!-- {% endfor %} -->

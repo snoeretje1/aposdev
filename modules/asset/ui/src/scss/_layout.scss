@@ -44,7 +44,7 @@ main,
   // max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  //padding: 10px;
 }
 
 .bp-header {
@@ -54,6 +54,7 @@ main,
   flex-wrap: wrap;
   margin-bottom: 10px;
   // padding: 40px 0;
+  background-color:$rs2e-bleu;
 }
 
 .bp-footer {
@@ -115,3 +116,32 @@ text-align: center;
 .contactgegevens p{
   text-align: center;
 }
+.menuitems{
+  list-style-type: none;
+  text-align: center;
+  margin-top: 30px;
+
+}
+//hoofdmenu homepage
+.menu1{
+  background-color: $rs2e-grey;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content:space-around;
+  font-size: 20px;
+  // padding-left: 100%;
+  // padding-right: 5%;
+
+}
+.menu1 a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+
+ .menu1 a:hover{
+    text-decoration:none;
+    color: $rs2e-bleu;
+  }
