@@ -55,10 +55,11 @@ main
   flex-wrap: wrap;
   margin-bottom: 10px;
   // padding: 40px 0;
-  background-color:$rs2e-bleu;
+  background-color:$rs2e-grey;
 }
 
 .bp-footer {
+  visibility: hidden;
   padding: 0px 0px; 
   width: 100%;
   margin-left:auto ;
