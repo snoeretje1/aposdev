@@ -59,6 +59,7 @@ require('apostrophe')({
     'twocolumn-widget':{},
     'enkelekolom-widget':{},
     'enkelekolomfull-widget':{},
-   ' postcss':{}}
+    'button-widget':{}
+  }
   }
 );

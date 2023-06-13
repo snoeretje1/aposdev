@@ -12,7 +12,8 @@ module.exports = {
           widgets:{
             '@apostrophecms/rich-text': {},
             '@apostrophecms/image': {},
-            '@apostrophecms/video':{}
+            '@apostrophecms/video':{},
+            'button':{}
           }
         }
       },
@@ -23,7 +24,8 @@ module.exports = {
           widgets:{
             '@apostrophecms/rich-text': {},
             '@apostrophecms/image':{},
-            '@apostrophecms/video':{}
+            '@apostrophecms/video':{},
+            'button':{}
           }
         }
       }

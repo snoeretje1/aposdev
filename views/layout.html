@@ -44,15 +44,28 @@
   <footer class="bp-footer">
 
 
-    <p " hier komt de footer" </p>
-    <!-- <h3>Essential Links</h3>
+    <!-- <p " hier komt de footer" </p> -->
     <ul class="bp-footer__links">
-      <li><a href="https://apostrophecms.com/" target="_blank">About ApostropheCMS</a></li>
-      <li><a href="https://chat.apostrophecms.com/" target="_blank">Discord</a></li>
-      <li><a href="https://github.com/apostrophecms/apostrophe/tree/3.0" target="_blank">Github (3.0 branch)</a></li>
-      <li><a href="https://twitter.com/apostrophecms" target="_blank">Twitter</a></li>
-      <li><a href="https://forum.apostrophecms.org" target="_blank">Forum</a></li> -->
+      <!-- <li><a href="https://apostrophecms.com/" target="_blank">About ApostropheCMS</a></li> -->
+      <!-- <li><a href="https://chat.apostrophecms.com/" target="_blank">Discord</a></li> -->
+      <!-- <li><a href="https://github.com/apostrophecms/apostrophe/tree/3.0" target="_blank">Github (3.0 branch)</a></li> -->
+      <!-- <li><a href="https://twitter.com/apostrophecms" target="_blank">Twitter</a></li> -->
+      <!-- <li><a href="https://forum.apostrophecms.org" target="_blank">Forum</a></li> --> -->
+ 
     </ul>
+    <div class="bp-footer__rechts">
+      <h2>contactgegevens</h2>
+      <ul class="contactgegevens">
+        <li>{{data.global.Naambedrijf}}</li>
+        <li>{{data.global.straathuisnummer}}</li>
+        <li><a href = tel:{data.global.telefoonnummer}>{{data.global.telefoonnummer}}</a></li>
+        <li><a href= mailto:{{data.global.email}}>{{data.global.email}}</a></li>
+        <li>{{data.global.kvk}}</li>
+        <li>{{data.global.iban}}</li>
+      </ul>
+
+    </div>
+
   </footer>
 </div>{# Close .bp-wrapper #}
 {% endblock %}

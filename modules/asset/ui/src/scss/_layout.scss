@@ -38,8 +38,9 @@ body {
 
 
 .bp-header,
-main,
-.bp-footer {
+main
+// .bp-footer 
+{
   width: 100%;
   // max-width: 800px;
   margin-left: auto;
@@ -58,19 +59,35 @@ main,
 }
 
 .bp-footer {
-  padding: 40px 0; 
+  padding: 0px 0px; 
+  width: 100%;
+  margin-left:auto ;
+  margin-right: auto;
+  background-color: $rs2e-bleu;
+  display: flex;
+  flex-direction: row;
 }
-
-.bp-footer__links {
-  padding-left: 0px;
+.bp-footer__links{
+  flex: 1; 
+  width: 50%;
+  height: 200px;
   list-style: none;
   text-align: center;
+  padding-left: 0px;
+}
 
-  li {
-    display: inline-block;
-    // margin-right: 20px;
-  }
-  li:last-child { margin-right: 0; }
+.bp-footer__rechts{
+  width: 50%;
+  color: white;
+  text-align: center;
+}
+ .contactgegevens{
+//   text-align: center;
+list-style: none  ;
+}
+.contactgegevens a{
+  color: white;
+  text-decoration:none;
 }
 
 .bp-header__logo {
@@ -119,20 +136,17 @@ text-align: center;
 .menuitems{
   list-style-type: none;
   text-align: center;
-  margin-top: 30px;
 
 }
 //hoofdmenu homepage
 .menu1{
-  background-color: $rs2e-grey;
-  height: 80px;
   display: flex;
-  flex-direction: row;
-  column-gap: 20px;
-  justify-content:space-around;
+  align-items: center;
+  padding: 0px 20px;
+  height: 80px;
+  background-color: $rs2e-grey;
   font-size: 20px;
-  // padding-left: 100%;
-  // padding-right: 5%;
+  column-gap: 20px;
 
 }
 .menu1 a{
@@ -142,6 +156,12 @@ text-align: center;
 }
 
  .menu1 a:hover{
-    text-decoration:none;
-    color: $rs2e-bleu;
+  transition-duration: 0.4s;
+  background-color: rgba(128, 128, 128, 0.689);
+  text-decoration:none;
+  color: black;
+  padding: 20px 15px;
+  vertical-align: middle;
   }
+
+
