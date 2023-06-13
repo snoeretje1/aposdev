@@ -43,6 +43,7 @@
     "@apostrophecms/form": "^1.1.1",
     "@apostrophecms/seo": "^1.2.0",
     "apostrophe": "^3.0.0",
+    "apostrophe-link-widgets": "^1.2.1",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {

@@ -1,24 +1,21 @@
-const { pages } = require("apostrophe");
+// const { pages } = require("apostrophe");
 
 module.exports = {
   extend: '@apostrophecms/widget-type',
   options: {
-    label: 'Button',
+    label: 'button',
   },
   fields: {
     add: {
-      Tekstbutton:{
-        type:'string',
-        label:'button',
-        textarea:true
-      },
-      _page:{
-        label: 'Page to link',
-        type: 'relationship',
-        withType: '@apostrophecms/page',
-        max: 1,
-        required: true,
-      }
+    tekst:{
+      type:'area',
+      label:'tekst',
+      options:{
+        widgets:{
+          '@apostrophecms/rich-text': {}
+        }
     }
+  }
+}
   }
 };
