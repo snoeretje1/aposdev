@@ -1,7 +1,9 @@
+const { pages } = require("apostrophe");
+
 module.exports = {
   extend: '@apostrophecms/widget-type',
   options: {
-    label: 'ButtonWidget',
+    label: 'Button',
   },
   fields: {
     add: {
@@ -9,6 +11,17 @@ module.exports = {
         type:'string',
         label:'button',
         textarea:true
+      },
+      _page:{
+        label: 'Page to link',
+        type: 'relationship',
+        withType: '@apostrophecms/page',
+        max: 1,
+        required: true,
+        project: {
+          title: 1,
+          _url: 1
+        }
       }
     }
   }
