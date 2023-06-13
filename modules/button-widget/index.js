@@ -18,10 +18,6 @@ module.exports = {
         withType: '@apostrophecms/page',
         max: 1,
         required: true,
-        project: {
-          title: 1,
-          _url: 1
-        }
       }
     }
   }
