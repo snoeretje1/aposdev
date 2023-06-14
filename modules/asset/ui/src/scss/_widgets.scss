@@ -14,13 +14,16 @@
   margin-left: 7%;
   margin-right: 7%;
   margin-top: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
  
 
   //flex: 1;
   flex-flow: row wrap;
 // width: 100%;
   justify-content: space-between;
+    img{
+      max-height: 450px;
+    }
 }
 
 .two_col__column {
@@ -29,6 +32,7 @@
   //flex-direction: column;
  // flex:auto;
  min-width: 420px ;
+ 
 }
 .enkele-kolom{
   margin-bottom: 10%;
